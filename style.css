@@ -1,0 +1,105 @@
+@charset "utf-8";  
+@media screen and (min-width:324px) {
+
+*{ padding:0px; margin:0px; }
+
+:root   {  
+            --ss-black:'ex_01';
+        }
+
+@font-face {
+    font-family: 'Margiela Mono';
+    font-style: normal;
+    font-weight: 375;
+    font-display: block;
+    src: url('woff2/MargielaMono-Text.woff2') format('woff2'),
+      url('woff/MargielaMono-Text.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: italic;
+    font-weight: 375;
+    font-display: block;
+    src: url('woff2/MargielaMono-TextItalic.woff2') format('woff2'),
+      url('woff/MargielaMono-TextItalic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url('woff2/MargielaMono-Regular.woff2') format('woff2'),
+      url('woff/MargielaMono-Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url('woff2/MargielaMono-Italic.woff2') format('woff2'),
+      url('woff/MargielaMono-Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url('woff2/MargielaMono-Medium.woff2') format('woff2'),
+      url('woff/MargielaMono-Medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: italic;
+    font-weight: 500;
+    font-display: block;
+    src: url('woff2/MargielaMono-MediumItalic.woff2') format('woff2'),
+      url('woff/MargielaMono-MediumItalic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url('woff2/MargielaMono-SemiBold.woff2') format('woff2'),
+      url('woff/MargielaMono-SemiBold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: italic;
+    font-weight: 600;
+    font-display: block;
+    src: url('woff2/MargielaMono-SemiBoldItalic.woff2') format('woff2'),
+      url('woff/MargielaMono-SemiBoldItalic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url('woff2/MargielaMono-Bold.woff2') format('woff2'),
+      url('woff/MargielaMono-Bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Margiela Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: block;
+    src: url('woff2/MargielaMono-BoldItalic.woff2') format('woff2'),
+      url('woff/MargielaMono-BoldItalic.woff') format('woff');
+  }
+
+
+  div.flexbox-items { margin:5px; width:200px; background-color:gold; }
+  section#A { border:1px solid black; display:flex;  flex-direction:column; align-items:center; gap:20px; }
+
+  div.flexbox-item-a2 { }
+}
