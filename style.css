@@ -1,105 +1,35 @@
 @charset "utf-8";  
-@media screen and (min-width:324px) {
+@media screen and (min-width:300px) {
 
 *{ padding:0px; margin:0px; }
 
 :root   {  
-            --ss-black:'ex_01';
+            --margiela-serif:'ex_01';
         }
 
-@font-face {
-    font-family: 'Margiela Mono';
-    font-style: normal;
-    font-weight: 375;
-    font-display: block;
-    src: url('woff2/MargielaMono-Text.woff2') format('woff2'),
-      url('woff/MargielaMono-Text.woff') format('woff');
-  }
+        @font-face { font-family:'ex_01'; src: url(/fonts/MargielaSerif-Text.woff) format(truetype);  }
+        @font-face { font-family:'ex_02'; src: url(/fonts/sodo-sans-light.ttf) format(truetype);  }
+        @font-face { font-family:'ex_03'; src: url(/fonts/sodo-sans-regular.ttf) format(truetype);  }
+        @font-face { font-family:'ex_04'; src: url(/fonts/sodo-sans-semi-bold.ttf) format(truetype);  }
   
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: italic;
-    font-weight: 375;
-    font-display: block;
-    src: url('woff2/MargielaMono-TextItalic.woff2') format('woff2'),
-      url('woff/MargielaMono-TextItalic.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url('woff2/MargielaMono-Regular.woff2') format('woff2'),
-      url('woff/MargielaMono-Regular.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: italic;
-    font-weight: 400;
-    font-display: block;
-    src: url('woff2/MargielaMono-Italic.woff2') format('woff2'),
-      url('woff/MargielaMono-Italic.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: normal;
-    font-weight: 500;
-    font-display: block;
-    src: url('woff2/MargielaMono-Medium.woff2') format('woff2'),
-      url('woff/MargielaMono-Medium.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: italic;
-    font-weight: 500;
-    font-display: block;
-    src: url('woff2/MargielaMono-MediumItalic.woff2') format('woff2'),
-      url('woff/MargielaMono-MediumItalic.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: normal;
-    font-weight: 600;
-    font-display: block;
-    src: url('woff2/MargielaMono-SemiBold.woff2') format('woff2'),
-      url('woff/MargielaMono-SemiBold.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: italic;
-    font-weight: 600;
-    font-display: block;
-    src: url('woff2/MargielaMono-SemiBoldItalic.woff2') format('woff2'),
-      url('woff/MargielaMono-SemiBoldItalic.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-display: block;
-    src: url('woff2/MargielaMono-Bold.woff2') format('woff2'),
-      url('woff/MargielaMono-Bold.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Margiela Mono';
-    font-style: italic;
-    font-weight: 700;
-    font-display: block;
-    src: url('woff2/MargielaMono-BoldItalic.woff2') format('woff2'),
-      url('woff/MargielaMono-BoldItalic.woff') format('woff');
-  }
+
+  section#body-01 { border:1px solid black; display:flex;  flex-direction:column; align-items:center; gap:px; margin-top:67px; }
+  article#flexbox-continer-a { border:1px solid black; height:200px; margin:auto; }
 
 
-  div.flexbox-items { margin:5px; width:200px; background-color:gold; }
-  section#A { border:1px solid black; display:flex;  flex-direction:column; align-items:center; gap:20px; }
+  div.flexbox-items { margin:5px; width:200px; background-color:gold; min-height:100px; }
 
-  div.flexbox-item-a2 { }
+    div#flexbox-item-a1 { display:flex; justify-content:center; align-items:center; }
+    div#flexbox-item-a1 > p { font-family:var(--margiela-serif); font-size:21px; letter-spacing:-0.1px; font-weight:400; }
+
+    
+    div#flexbox-item-a2 { min-width:50vw; min-height:550px; box-sizing: border-box; display:flex; border-radius:20px; }
+    div#flexbox-item-a2 > a > img { object-fit:cover; min-width:60%; border-radius:20px; min-height:550px;}
+
+
+    #mobile-banner-container {  }
+
+
+
+
 }
