@@ -1,5 +1,5 @@
 @charset "utf-8";  
-@media screen and (min-width:300px) {
+@media screen and (min-width:377px) {
 
 *{ padding:0px; margin:0px; }
 
@@ -12,22 +12,45 @@
         @font-face { font-family:'ex_03'; src: url(/fonts/sodo-sans-regular.ttf) format(truetype);  }
         @font-face { font-family:'ex_04'; src: url(/fonts/sodo-sans-semi-bold.ttf) format(truetype);  }
   
+body { background-color:RGB(247, 247, 242); display:flex; flex-direction:column; width:99.5vw;}
+div.flexbox-items { margin:5px; width:130px; background-color:gold; min-height:100px;  }
 
-  section#body-01 { border:1px solid black; display:flex;  flex-direction:column; align-items:center; gap:px; margin-top:67px; }
-  article#flexbox-continer-a { border:1px solid black; height:200px; margin:auto; }
+section#flexbox-container-a { display:flex; border:1px solid black; justify-content:center; height:95px; align-items:center; } 
+  /* div#flexbox-item-a1 {  min-width:120px; min-height:50%; display:flex; justify-content: center; align-items:center; } */
+
+   div#flexbox-item-a2 {  min-width:170px; min-height:70px; display:flex; justify-content: center; align-items:center; }
+   div#flexbox-item-a2 > img { max-width:80%; }
+
+    div#flexbox-item-a3 {  width:150px; min-height:38px; display:flex; justify-content: center; align-items:center; }
+      div#flexbox-item-a4 {  width:150px; min-height:38px; display:flex; justify-content: center; align-items:center; }
+        div#flexbox-item-a5 {  width:150px; min-height:38px; display:flex; justify-content: center; align-items:center; }
+          div#flexbox-item-a6 {  width:150px; min-height:38px; display:flex; justify-content: center; align-items:center; }
+
+section#flexbox-container-b { display:flex; border:1px solid black; justify-content:center; height:72px; align-items:center; } 
+  div#flexbox-item-b1 {  width:250px; min-height:40px; display:flex; justify-content: center; align-items:center; }
+  div#flexbox-item-b1 > p { font-family:var(--margiela-serif); font-size:21px; letter-spacing:-0.1px; font-weight:400;}
+
+section#flexbox-container-c { display:flex; border:1px solid black; justify-content:center;  align-items:center; flex-direction:column; } 
+  div#flexbox-item-c1 {  min-width:356px; min-height:550px; display:flex; justify-content: center; align-items:center; border-radius:20px; margin-top:50px;  }
+  div#flexbox-item-c1 > a {  min-width:356px; min-height:550px; border-radius:20px; border:1px solid black;   }
+  div#flexbox-item-c1 > a > img { width:100%; border-radius:20px;  }
+
+  div#flexbox-item-c2 {  min-width:295px; height:230px; display:flex; justify-content:center; align-items:flex-start;  margin-top:35px; margin-bottom:20px; }
+  div#flexbox-item-c2 > p { font-family:var(--margiela-serif); font-size:21px; font-weight:400; text-align:center; padding:10px; line-height: 29.4px; letter-spacing: -0.1px; }
 
 
-  div.flexbox-items { margin:5px; width:200px; background-color:gold; min-height:100px; }
-
-    div#flexbox-item-a1 { display:flex; justify-content:center; align-items:center; }
-    div#flexbox-item-a1 > p { font-family:var(--margiela-serif); font-size:21px; letter-spacing:-0.1px; font-weight:400; }
-
-    
-    div#flexbox-item-a2 { min-width:50vw; min-height:550px; box-sizing: border-box; display:flex; border-radius:20px; }
-    div#flexbox-item-a2 > a > img { object-fit:cover; min-width:60%; border-radius:20px; min-height:550px;}
+section#flexbox-container-d { display:flex; border:1px solid black; justify-content:center; min-height:430px; align-items:center; margin-top:10px; } 
+div#flexbox-item-d1 {  width:200px; min-height:360px; display:flex; justify-content: center; align-items:center; }
 
 
-    #mobile-banner-container {  }
+section#flexbox-container-e { display:flex; border:1px solid black; justify-content:center; height:430px; align-items:center; } 
+div#flexbox-item-e1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+
+
+section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; height:130px; align-items:center; } 
+div#flexbox-item-f1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center; }
+
+
 
 
 
