@@ -1,5 +1,5 @@
 @charset "utf-8";  
-@media screen and (min-width:377px) {
+@media screen and (min-width:370px) {
 
 *{ padding:0px; margin:0px; }
 
@@ -40,7 +40,7 @@ section#flexbox-container-c { display:flex; border:1px solid black; justify-cont
 
 
 section#flexbox-container-d { display:flex; border:1px solid black; justify-content:center; min-height:430px; align-items:center; margin-top:10px; } 
-  div#flexbox-item-d1 {  width:200px; min-height:360px; display:flex; justify-content: center; align-items:center; }
+  div#flexbox-item-d1 {  width:900px; min-height:400px; display:flex; justify-content: center; align-items:center; }
 
   section#flexbox-container-e { display:flex; border:1px solid black; justify-content:center;  align-items:center; flex-direction:column; } 
   div#flexbox-item-e1 {  min-width:356px; min-height:550px; display:flex; justify-content: center; align-items:center; border-radius:20px; margin-top:50px;  }
@@ -48,12 +48,25 @@ section#flexbox-container-d { display:flex; border:1px solid black; justify-cont
   div#flexbox-item-e1 > a > img { width:100%; border-radius:20px;  }
 
 
-section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; height:430px; align-items:center; } 
-div#flexbox-item-f1 {  width:290px; height:300px; display:flex; justify-content: center; align-items:center; }
+section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; align-items:center; flex-direction:column; } 
+div#flexbox-item-f1 {  width:390px; height:600px; display:flex; justify-content: center; align-items:center;  margin-top:10px;  }
+div#flexbox-item-f2 {  width:390px; height:400px; display:flex; justify-content: center; align-items:center; margin-top:10px; display:flex; flex-direction: column; }
+div#flexbox-item-f2 > h3 { border:1px solid black;  }
+div#flexbox-item-f2 > h2 { border:1px solid black; margin-top:10px;  }
+div#flexbox-item-f2 > p  { border:1px solid black; margin-top:10px;  }
+div#flexbox-item-f2 > a  { border:1px solid black; margin-top:10px; text-decoration:none; }
 
 
 
 
+section#flexbox-container-g { display:flex; border:1px solid black; justify-content:center; height:630px; align-items:center; } 
+div#flexbox-item-g1 {  width:390px; height:600px; display:flex; justify-content: center; align-items:center; }
+
+section#flexbox-container-h { display:flex; border:1px solid black; justify-content:center; height:630px; align-items:center; } 
+div#flexbox-item-h1 {  width:390px; height:600px; display:flex; justify-content: center; align-items:center; }
+
+section#flexbox-container-i { display:flex; border:1px solid black; justify-content:center; height:630px; align-items:center; } 
+div#flexbox-item-i1 {  width:390px; height:600px; display:flex; justify-content: center; align-items:center; }
 
 
 }
