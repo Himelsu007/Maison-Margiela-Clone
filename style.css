@@ -60,7 +60,7 @@ section#flexbox-container-f { display:flex; border:1px solid black; justify-cont
    }
   
    .pic-ctn { position:relative; width:100vw; height:550px; border-radius:20px; border:1px solid black; }
-   .pic { width:356px; height:550px; background-color:#AB2C2C; position:relative; top:0; left:calc(27.6% - 100px); opacity:0; animation:display 10s infinite; border-radius:20px; }
+   .pic { width:356px; height:550px; background-color:#AB2C2C; position:absolute; top:0; left:calc(27.6% - 100px); opacity:0; animation:display 10s infinite; border-radius:20px; }
   
    .pic:nth-child(2) { background-color:#A83C2C; animation-delay:2s; }
    .pic:nth-child(3) { background-color:#A84C2C; animation-delay:2s; }
