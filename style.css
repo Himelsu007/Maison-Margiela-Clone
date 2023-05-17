@@ -45,7 +45,7 @@ section#flexbox-container-c { display:flex; border:1px solid black; justify-cont
   div#flexbox-item-c1 > a {  min-width:356px; min-height:550px; border-radius:20px; border:1px solid black;   }
   div#flexbox-item-c1 > a > img { width:100%; border-radius:20px;  }
 
-  div#flexbox-item-c2 {  min-width:295px; height:230px; display:flex; justify-content:center; align-items:flex-start;  margin-top:35px; margin-bottom:20px; }
+  div#flexbox-item-c2 {  min-width:295px;  display:flex; justify-content:center; align-items:flex-start;  margin-top:35px; margin-bottom:20px; }
   div#flexbox-item-c2 > p { font-family:var(--margiela-serif); font-size:21px; font-weight:400; text-align:center; padding:10px; line-height: 29.4px; letter-spacing: -0.1px; }
 
   section#flexbox-container-e { display:flex; border:1px solid black; justify-content:center;  align-items:center; flex-direction:column; } 
@@ -56,7 +56,7 @@ section#flexbox-container-c { display:flex; border:1px solid black; justify-cont
 section#flexbox-container-f { display:flex; border:1px solid black; justify-content:center; align-items:center; flex-direction:column; overflow:hidden; } 
 
   div#flexbox-item-f1 {  width:356px; min-height:550px; display:flex; justify-content: center; align-items:center;  margin-top:20px; border-radius:20px 20px 0px 0px ;
-                         background-image:url('images/home_page/VC1.jpg'); background-repeat:no-repeat; background-size:cover;
+                         background-image:url('images/SummerFiles/images/MM_HOMEPAGE-section-F.jpg'); background-repeat:no-repeat; background-size:cover;
                       }
 
   .pic-ctn { width:99.5vw;  }
